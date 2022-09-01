@@ -32,7 +32,7 @@ def glowmodule():
                 entity_team_id = pm.read_int(entity + m_iTeamNum)
                 entityglowing = pm.read_int(entity + m_iGlowIndex)
                     
-                if entity_team_id == 2: #tr
+                if entity_team_id == 2: #tra
                     
 
                     pm.write_float(glow + entityglowing * 0x38 + 0x8, float(1))   # R
